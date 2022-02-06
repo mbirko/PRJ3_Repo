@@ -6,3 +6,5 @@
   - Skal der være nogen standard der?
 - Hvordan gør vi med draw.io i Git?
   - Bruger vi draw.io igen?
+  - draw.io vscode extension
+- Overordnet figurmappe eller figurmappe til hver fase?
