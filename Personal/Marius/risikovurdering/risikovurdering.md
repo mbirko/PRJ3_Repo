@@ -1,16 +1,19 @@
 # Båden
 ## Positionsstyring
 ### GPS
-    - Præcition (mangel derpå)
+    - Mangel på præsition
 ### Accelerometer
-    - Sammenspil med GPS - Er det mere præcist?
+    - Fare for at forværre position
 ### Pathfinding
     - Pathfinding algoritmer - skal vi overhovedt bruge dem?
 
 ## Fremdrift
 ### Motor
-    - 
+    - Motor ikke kraftig nok
+    - Svært at få en god propel/skrue
 #### Controller
+    - Controller ikke strømeffektiv nok
+
 
 ## Flydeegenskab
 
