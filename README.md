@@ -1,3 +1,3 @@
 # PRJ3_Repo
 
-![Drag Racing](Div/Personal/Brix/GitStructure.png)
+![Drag Racing](Personal/Brix/GitStructure.png)
