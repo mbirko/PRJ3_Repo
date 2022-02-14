@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "202202141439 - Risiko vurdering.md",
+            "file": "202202141439-Risiko_vurdering.md",
             "mode": "source",
             "source": false
           }
@@ -32,7 +32,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202202141439 - Risiko vurdering.md",
+                "file": "202202141439-Risiko_vurdering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202202141439 - Risiko vurdering.md",
+                "file": "202202141439-Risiko_vurdering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "202202141439 - Risiko vurdering.md",
+                "file": "202202141439-Risiko_vurdering.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,8 +164,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,7 +172,7 @@
   },
   "active": "971cd6b0f831fc46",
   "lastOpenFiles": [
-    "202202141439 - Risiko vurdering.md",
+    "202202141439-Risiko_vurdering.md",
     "Untitled.md"
   ]
 }
