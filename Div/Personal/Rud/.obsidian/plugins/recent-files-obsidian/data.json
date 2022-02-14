@@ -1,0 +1,208 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Decibel",
+      "path": "Decibel.md"
+    },
+    {
+      "basename": "Stepper Motor",
+      "path": "Stepper Motor.md"
+    },
+    {
+      "basename": "Sampling - DSP",
+      "path": "Sampling - DSP.md"
+    },
+    {
+      "basename": "EFYS_E3",
+      "path": "EFYS_E3.md"
+    },
+    {
+      "basename": "MOC-E3",
+      "path": "MOC-E3.md"
+    },
+    {
+      "basename": "File-operations - LINUX",
+      "path": "File-operations - LINUX.md"
+    },
+    {
+      "basename": "HAL_E3-2",
+      "path": "HAL_E3-2.md"
+    },
+    {
+      "basename": "Kernel - LINUX",
+      "path": "Kernel - LINUX.md"
+    },
+    {
+      "basename": "MOC-Linux",
+      "path": "MOC-Linux.md"
+    },
+    {
+      "basename": "File holes",
+      "path": "File holes.md"
+    },
+    {
+      "basename": "File offset",
+      "path": "File offset.md"
+    },
+    {
+      "basename": "HAL_E3",
+      "path": "HAL_E3.md"
+    },
+    {
+      "basename": "EFYS_E3-2",
+      "path": "EFYS_E3-2.md"
+    },
+    {
+      "basename": "EFYS_E3-1",
+      "path": "EFYS_E3-1.md"
+    },
+    {
+      "basename": "Circuit theory",
+      "path": "Circuit theory.md"
+    },
+    {
+      "basename": "Field theory",
+      "path": "Field theory.md"
+    },
+    {
+      "basename": "Electric Flux",
+      "path": "Electric Flux.md"
+    },
+    {
+      "basename": "Charge",
+      "path": "Charge.md"
+    },
+    {
+      "basename": "Voltage",
+      "path": "Voltage.md"
+    },
+    {
+      "basename": "Electric Field",
+      "path": "Electric Field.md"
+    },
+    {
+      "basename": "Electric Force",
+      "path": "Electric Force.md"
+    },
+    {
+      "basename": "Current",
+      "path": "Current.md"
+    },
+    {
+      "basename": "SI-Enheder",
+      "path": "SI-Enheder.md"
+    },
+    {
+      "basename": "Superposition",
+      "path": "Superposition.md"
+    },
+    {
+      "basename": "MOC-Analog-E",
+      "path": "MOC-Analog-E.md"
+    },
+    {
+      "basename": "ClassN_E3",
+      "path": "Templates/ClassN_E3.md"
+    },
+    {
+      "basename": "Zettelkasten_sysV1",
+      "path": "Zettelkasten_sysV1.md"
+    },
+    {
+      "basename": "GFV_E3-2 - DC-motor control",
+      "path": "GFV_E3-2 - DC-motor control.md"
+    },
+    {
+      "basename": "DC motors",
+      "path": "DC motors.md"
+    },
+    {
+      "basename": "Servo motor",
+      "path": "Servo motor.md"
+    },
+    {
+      "basename": "JFET",
+      "path": "JFET.md"
+    },
+    {
+      "basename": "Field Effect Transistor",
+      "path": "Field Effect Transistor.md"
+    },
+    {
+      "basename": "MOSFET",
+      "path": "MOSFET.md"
+    },
+    {
+      "basename": "ConcN_E3",
+      "path": "Templates/ConcN_E3.md"
+    },
+    {
+      "basename": "H-Bro",
+      "path": "H-Bro.md"
+    },
+    {
+      "basename": "GFV_E3",
+      "path": "GFV_E3.md"
+    },
+    {
+      "basename": "PSoC creator",
+      "path": "PSoC creator.md"
+    },
+    {
+      "basename": "GFV_E3-1 - Introduktion",
+      "path": "GFV_E3-1 - Introduktion.md"
+    },
+    {
+      "basename": "SoC",
+      "path": "SoC.md"
+    },
+    {
+      "basename": "Transducer",
+      "path": "Transducer.md"
+    },
+    {
+      "basename": "Aktuator",
+      "path": "Aktuator.md"
+    },
+    {
+      "basename": "Sensor",
+      "path": "Sensor.md"
+    },
+    {
+      "basename": "PSoC",
+      "path": "PSoC.md"
+    },
+    {
+      "basename": "SNR (Signal to Noice Ratio) - DSP",
+      "path": "SNR (Signal to Noice Ratio) - DSP.md"
+    },
+    {
+      "basename": "Sampling tidsakse - DSB",
+      "path": "Sampling tidsakse - DSB.md"
+    },
+    {
+      "basename": "Signal processing",
+      "path": "Signal processing.md"
+    },
+    {
+      "basename": "RMS værdi",
+      "path": "RMS værdi.md"
+    },
+    {
+      "basename": "DSB_E3-1 - Intro og terminologi",
+      "path": "DSB_E3-1 - Intro og terminologi.md"
+    },
+    {
+      "basename": "DSB_E3-2",
+      "path": "DSB_E3-2.md"
+    },
+    {
+      "basename": "Logaritmisk domæne",
+      "path": "Logaritmisk domæne.md"
+    }
+  ],
+  "omittedPaths": [
+    ""
+  ],
+  "maxLength": null
+}
