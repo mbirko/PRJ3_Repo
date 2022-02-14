@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "72c424d63a3e4c2b",
+        "id": "971cd6b0f831fc46",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "202202141439 - Risiko vurdering.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -19,8 +23,96 @@
     "type": "split",
     "children": [
       {
-        "id": "60b597902c140d4d",
+        "id": "6d86494f4d91da69",
         "type": "tabs",
+        "children": [
+          {
+            "id": "c3b84b313ad4f995",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "202202141439 - Risiko vurdering.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d5525b49b1e4e37",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "202202141439 - Risiko vurdering.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2b5b44fc9a5279ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "17188cd8e903faf1",
+        "type": "tabs",
+        "dimension": 53.79241516966068,
+        "children": [
+          {
+            "id": "9192b763de1bc2cb",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "202202141439 - Risiko vurdering.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e6f2aa4ee42d5c72",
+        "type": "tabs",
+        "dimension": 46.20758483033932,
         "children": [
           {
             "id": "b08e548955ece7a6",
@@ -52,60 +144,36 @@
               "type": "recent-files",
               "state": {}
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "2b5b44fc9a5279ce",
-    "type": "split",
-    "children": [
-      {
-        "id": "2eb28f5cf7c11d28",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "1d5525b49b1e4e37",
+            "id": "0b678664127f3028",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86a5dfbb7ff1c7d4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
               "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "2f36e9f771a9e02b",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "eed31731b1e429b0",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 369
   },
-  "active": "72c424d63a3e4c2b",
-  "lastOpenFiles": []
+  "active": "971cd6b0f831fc46",
+  "lastOpenFiles": [
+    "202202141439 - Risiko vurdering.md",
+    "Untitled.md"
+  ]
 }
