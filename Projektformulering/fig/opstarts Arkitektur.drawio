@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T12:44:22.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36" etag="V-4MUJkrlMmaacyc_yzq" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T12:44:38.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36" etag="jbeg6_saGVP1se_AxJFu" version="16.5.3" type="github">
   <diagram id="erpGU3eYgXvApTLNxW-y" name="Page-1">
     <mxGraphModel dx="2193" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
           <mxGeometry x="354" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SieacuqeAXUAK5aDUlHt-6" value="LoRa Antenne" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="354" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SieacuqeAXUAK5aDUlHt-7" value="Batteri&lt;br&gt;+ BMS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="450" y="190" width="120" height="60" as="geometry" />
@@ -118,7 +118,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SieacuqeAXUAK5aDUlHt-32" value="Flydeegenskab" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="260" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SieacuqeAXUAK5aDUlHt-33" value="Pathfinding" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="90" y="555" width="120" height="60" as="geometry" />
