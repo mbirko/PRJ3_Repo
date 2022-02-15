@@ -2,9 +2,9 @@
 | Navn | Studienummer | AU-ID |
 | --- | --- | --- |
 | Simon Brix Andersen | 202008698 | AU680698 |
-| mathias Birk Olsen | 202008722 | AU592997 |
+| Mathias Birk Olsen | 202008722 | AU592997 |
 
-## Emails(pls dont formate any further)
+## Emails(pls don't formate any further)
 202010605@post.au.dk
 202010610@post.au.dk
 202010612@post.au.dk
