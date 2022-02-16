@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T13:09:01.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="wJGWDwCEYoq4XM_M8CLw" version="16.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-16T13:10:25.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="88qMNQ5MEgWqXS-MR4a_" version="16.5.6" type="github" pages="2">
   <diagram id="6XSICddZ0CkOiPx_KoM9" name="Båden">
     <mxGraphModel dx="1261" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EbZcceduFZi5iUKaZhmY-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;block&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Boat Electronics&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: center&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="960" y="310" width="140" height="130" as="geometry" />
+          <mxGeometry x="1040" y="310" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EbZcceduFZi5iUKaZhmY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;endArrow=none;endFill=0;startSize=14;endSize=14;strokeWidth=1;" edge="1" parent="1" source="EbZcceduFZi5iUKaZhmY-4" target="rIe6Sm0V3zeNr12IOCub-17">
           <mxGeometry relative="1" as="geometry" />
