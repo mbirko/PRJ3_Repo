@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T12:20:45.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.5.6" etag="VmX_ZRjz_94_GDNnEIw3" type="github"><diagram id="6XSICddZ0CkOiPx_KoM9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-16T12:26:33.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mlCzZHWPXbm4z2svvb_P" version="16.5.6" type="github">
+  <diagram id="6XSICddZ0CkOiPx_KoM9" name="Båden">
+    <mxGraphModel dx="1261" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rIe6Sm0V3zeNr12IOCub-2" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
