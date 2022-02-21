@@ -77,7 +77,7 @@ M: Ilt 1 decimal + % mætning i vand
 - Modtage kommando LoRa fra LU
   - Fortolke kommando
 - Undersøg LoRa på PSoC
-- Opsæt PSoC til C++ std:20
+- Opsæt PSoC til C++ std::20
 
 ## Hardware
 - Vælg temperatur sensor
