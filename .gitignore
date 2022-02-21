@@ -33,3 +33,9 @@
 
 # DS_Store files
 .DS_Store
+
+# other stange temps
+~$*
+
+# obsidian
+*.obsidian
