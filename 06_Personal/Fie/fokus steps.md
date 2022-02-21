@@ -1,61 +1,61 @@
 # Krav
 ## Bevægelse
-M: Bevæge sig i 2D plan i alle retninger (Aktuator)
-S: Sejle til gps koordinater
-C: Pathfinding/undgå forhindringer
-S: Beskyttelse af motor mod fremmeslegemer
-M: Holde position = forskellig precition
-M: Kende GPS-lokation
+- M: Bevæge sig i 2D plan i alle retninger (Aktuator)
+- S: Sejle til gps koordinater
+- C: Pathfinding/undgå forhindringer
+- S: Beskyttelse af motor mod fremmeslegemer
+- M: Holde position = forskellig precition
+- M: Kende GPS-lokation
 
 ## UI
-M: TUI
-S: GUI (Interraktiv map)
-M: Lokation
-M: Sensor data
-C: Display koordinatsæt(lon/lat) på map
-C: Display pathfinding
-S: Tasktracker
-M: Intereragere med båd
+- M: TUI
+- S: GUI (Interraktiv map)
+- M: Lokation
+- M: Sensor data
+- C: Display koordinatsæt(lon/lat) på map
+- C: Display pathfinding
+- S: Tasktracker
+- M: Intereragere med båd
 
 ## Power
-M: lade batteri fra sol
-S: Selvforsynende energi
-S: Sleep mode
-S: Måle strømforbrug
-C: Kende kapacitet
+- M: lade batteri fra sol
+- S: Selvforsynende energi
+- S: Sleep mode
+- S: Måle strømforbrug
+- C: Kende kapacitet
   
 ## Projektrammer
-M: Sejle i sø uden forhindringer
-S: Sejle i søer med øer
-C: Undgå flydende forhindringer
-W: Ikke sejle i overskyet og stormvejr
+- M: Sejle i sø uden forhindringer
+- S: Sejle i søer med øer
+- C: Undgå flydende forhindringer
+- W: Ikke sejle i overskyet og stormvejr
 
 ## Sensor
-M: Måle temperatur
-S: Ledningsevne
-C: PH
-C: O2
-M: Måle i flere dybder
-S: Sonar til at finde dybde
-S: Måle tæt på bund
-M: Brug af PSoC
-M: kommunikaton mellem båd og pod
+- M: Måle temperatur
+- S: Ledningsevne
+- C: PH
+- C: O2
+- M: Måle i flere dybder
+- S: Sonar til at finde dybde
+- S: Måle tæt på bund
+- M: Brug af PSoC
+- M: kommunikaton mellem båd og pod
 
 ## Land unit
-C: Mobile netværker
-M: Uploade sensordata
-C: Live position
-S: Status på båd
-C: Snakke med webserver 
-M: Save csv af data
-M: Linux embbeded på rpi
-M: LoRa til båden
-M: Local webserver
+- C: Mobile netværker
+- M: Uploade sensordata
+- C: Live position
+- S: Status på båd
+- C: Snakke med webserver 
+- M: Save csv af data
+- M: Linux embbeded på rpi
+- M: LoRa til båden
+- M: Local webserver
 
 ## Ikke funktionelle krav
-M: PH 2 decimal
-M: Temp 1 decimal
-M: Ilt 1 decimal + % mætning i vand
+- M: PH 2 decimal
+- M: Temp 1 decimal
+- M: Ilt 1 decimal + % mætning i vand
 
 
 
