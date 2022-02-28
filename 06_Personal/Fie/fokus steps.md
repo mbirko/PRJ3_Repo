@@ -57,7 +57,8 @@
 - M: Temp 1 decimal
 - M: Ilt 1 decimal + % mætning i vand
 
-
+---
+---
 # prototype
 
 ## Båden V.0.1
@@ -69,7 +70,8 @@
 - Lokal webserver + TUI
 - Køre på elnet
 
-
+---
+---
 # Backlog
 ## Båd V.0.1
 - Send DATA via LoRa til LU
@@ -91,6 +93,7 @@
   - Motortype
   - Mekanik
   - Vandtæt
+
 
 ---
 - Temperatur Sensor
