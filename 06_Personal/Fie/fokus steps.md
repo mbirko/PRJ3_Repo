@@ -18,7 +18,7 @@
 - M: Intereragere med båd
 
 ## Power
-- M: lade batteri fra sol
+- M: Lade batteri fra sol
 - S: Selvforsynende energi
 - S: Sleep mode
 - S: Måle strømforbrug
@@ -56,7 +56,6 @@
 - M: PH 2 decimal
 - M: Temp 1 decimal
 - M: Ilt 1 decimal + % mætning i vand
-
 
 
 # prototype
