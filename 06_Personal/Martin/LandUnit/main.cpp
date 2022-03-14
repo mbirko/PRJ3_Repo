@@ -1,10 +1,19 @@
+/* LIST OF THINGS TO ADD
+ * - data validation
+ * - please just add default values if data is wrong 
+*/
+
+
 #include <istream>
 #include <fstream>
 #include <iostream>
 #include <string>
 
 // i am lazy
-using namespace std;
+using std::string;
+using std::cout;
+using std::endl;
+using std::fstream;
 
 // opens file at full path and reads the content to stdout
 void printFile(string filename){
@@ -55,8 +64,6 @@ void openAndReplace(string filename, string htmlstring){
 	file_handler.close();
 }
 
-// add function to save to file
-
 // replace data at x in string y
 // Ex: data = "temperature", dataValue = "30", htmlstring = openAndCopy("index.html);
 string updateData(string htmlstring, string data, string dataValue){
@@ -65,15 +72,21 @@ string updateData(string htmlstring, string data, string dataValue){
 	size_t lenghtOfDataPoint = dataValue.length()+1;	
 	return htmlstring.replace(startOfDataPoint + lenghtOfDataPoint, data.length(), data);
 }
-
-int main(){
-
-	string indexhtml = "index.html";
+// updates all data points in filepath
+void updateAll(string temperatureValue, string tomatoesValue, string treesValue, string filepath){
+	
+	string indexhtml = filepath;
 	
 	// TODO implement as recursive function
-	string temp1 = updateData(openAndCopy(indexhtml), "25", "Temperature");
-	string temp2 = updateData(temp1, "69", "Tomatoes");
-	string temp3 = updateData(temp2, "42", "Trees");
+	string temp1 = updateData(openAndCopy(indexhtml), temperatureValue, "Temperature");
+	string temp2 = updateData(temp1, tomatoesValue, "Tomatoes");
+	string temp3 = updateData(temp2, treesValue, "Trees");
 	openAndReplace(indexhtml, temp3);
+
+}
+
+int main(){
+	string indexhtml = "/var/www/html/index.html";
+	updateAll("255","255","255", indexhtml);
 	printFile(indexhtml);
 }
