@@ -1,23 +1,29 @@
-/* LIST OF THINGS TO ADD
- * - data validation
- * - please just add default values if data is wrong 
+/*   LIST OF THINGS TO ADD
+ *
+ * - add reading to and from data.txt
+ * - add data validation
+ * - add mutex around critical section (read and write from data.txt) 
+ * - add default values if data is wrong/corrupted 
+ * - add google test support and write test cases.
 */
-
 
 #include <istream>
 #include <fstream>
 #include <iostream>
 #include <string>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
 
 // i am lazy
 using std::string;
 using std::cout;
 using std::endl;
 using std::fstream;
+using std::to_string;
 
 // opens file at full path and reads the content to stdout
 void printFile(string filename){
-
 	fstream file_handler;
 	string readFromFile;
 	file_handler.open(filename);
@@ -67,26 +73,42 @@ void openAndReplace(string filename, string htmlstring){
 // replace data at x in string y
 // Ex: data = "temperature", dataValue = "30", htmlstring = openAndCopy("index.html);
 string updateData(string htmlstring, string data, string dataValue){
-
+	if (data.length() > 3 ){
+		data = "--";
+	}
 	int startOfDataPoint = htmlstring.find(dataValue);
 	size_t lenghtOfDataPoint = dataValue.length()+1;	
 	return htmlstring.replace(startOfDataPoint + lenghtOfDataPoint, data.length(), data);
 }
+
 // updates all data points in filepath
 void updateAll(string temperatureValue, string tomatoesValue, string treesValue, string filepath){
-	
 	string indexhtml = filepath;
-	
 	// TODO implement as recursive function
 	string temp1 = updateData(openAndCopy(indexhtml), temperatureValue, "Temperature");
 	string temp2 = updateData(temp1, tomatoesValue, "Tomatoes");
 	string temp3 = updateData(temp2, treesValue, "Trees");
 	openAndReplace(indexhtml, temp3);
+}
 
+// test case doesnt work
+void TEST_CHANGE_ALL_VALUES_WITH_RANDOM(string filepath){
+	string testValues = "";
+	for(int i = 10; i > 100; i++){
+		testValues = to_string(i);
+		cout << "Updating values with: " << i << endl;
+		updateAll(testValues, testValues, testValues, filepath);
+		sleep(1);
+		printFile(filepath);
+	}
 }
 
 int main(){
-	string indexhtml = "/var/www/html/index.html";
-	updateAll("255","255","255", indexhtml);
-	printFile(indexhtml);
+	string indexhtml = "/var/www/html/index.html"; 
+	/* updateAll("50","40","30", indexhtml); */
+	/* printFile(indexhtml); */
+	TEST_CHANGE_ALL_VALUES_WITH_RANDOM(indexhtml);
 }
+
+
+
