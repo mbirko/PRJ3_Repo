@@ -29,32 +29,75 @@ using std::endl;
 using std::fstream;
 using std::string;
 using std::to_string;
+
 class LandUnit{
 
 public:
-	LandUnit(string pathToIndexhtml) : pathToIndexhtml_(pathToIndexhtml)
+	LandUnit(string pathToIndexhtml, string pathToDatafile) : 
+			pathToIndexhtml_(pathToIndexhtml), pathToDataFile_(pathToDatafile)
 	{
-		setTemperature("--");
-		setTomatoes("--");
-		setTrees("--");
+		setTemperature("10");
+		setTomatoes("10");
+		setTrees("10");
+		setIndexHtmlString(pathToIndexhtml_);
+		setDataTxtString(pathToDataFile_);
+
+		cout << pathToIndexhtml_ << endl;
+		cout << pathToIndexhtml_ << endl;
+		cout << indexhtmlString_ << endl;
+		cout << datatxtString_   << endl;
+		cout << temperatureValue_<< endl;
+		cout << tomatoesValue_   << endl;
+		cout << treesValue_ 	 << endl;
 	}
 	
 	void updateTUI(){
-		readFromRemote();	
-		readFromDataFile();
-		string temp = openAndCopy(pathToIndexhtml_);
-		string temp1 = updateData(temp, "Temperature", temperatureValue_);
-		string temp2 = updateData(temp1, "Tomatoes", tomatoesValue_);
-		string updatedString = updateData(temp2, "Trees", treesValue_);
-		openAndReplace(pathToIndexhtml_, updatedString);
+		// print out current indexhtml
+		printFile(pathToIndexhtml_);
+		// Opens data.txt and copies and set local datatxt 
+		setDataTxtString(pathToDataFile_);
+		// use the datatxt string to extract data values and set local data 
+		updateLocalDataVariabels(datatxtString_);
+		// Opens index.html and copies and set local indexhtml 
+		setIndexHtmlString(pathToIndexhtml_);
+		// use the indexhtml string to update data1 etc
+		updateDataInString(indexhtmlString_, temperatureValue_, "data1");
+		// Opens index.html and replaces with local indexhtml 
+		openAndReplace(pathToIndexhtml_, indexhtmlString_);
+		// print out updated indexhtml
+		printFile(pathToIndexhtml_);
 	}
+
+	// opens file at full path and reads the content to stdout
+	void printFile(string filename)
+	{
+  		fstream file_handler;
+  		string  readFromFile;
+  		file_handler.open(filename);
+
+  		if (file_handler.is_open()){
+    		cout << "Reading from file" << filename << endl;
+    		while (getline(file_handler, readFromFile)){
+      			cout << readFromFile << endl;
+    		}
+
+			file_handler.close();
+  		}
+  		else
+  		{
+    		cout << "Could not open file: " << filename << endl;
+  		}	
+}
 
 private:
 string pathToIndexhtml_;
+string pathToDataFile_;
 string temperatureValue_;
 string tomatoesValue_;
 string treesValue_;
-	
+string indexhtmlString_;
+string datatxtString_;
+
 	void setTemperature(string value){
 		temperatureValue_ = value;	
 	}
@@ -67,32 +110,7 @@ string treesValue_;
 		treesValue_ = value;	
 	}
 	
-	void readFromDataFile(string pathToDatafile){
-		// Open data.txt and read the hole string
-		// find the dataValues and save them in local variabels
-		setTemperature("new value");
-		setTomatoes("new value");
-		setTrees("new value");	
-	}
-
-	void readFromRemote(){
-		// TO BE IMPLEMENTED	
-		// do some stuff that gets the data from whereever
-		// write this data to the data.txt file
-	}			
-
-	string updateData(string htmlstring, string data, string dataValue){
-  		if (data.length() > 3)
-  		{
-    		data = "--";
-  		}
-  		int    startOfDataPoint  = htmlstring.find(dataValue);
-  		size_t lenghtOfDataPoint = dataValue.length() + 1;
-  		return htmlstring.replace(startOfDataPoint + lenghtOfDataPoint, 
-												  data.length(), data);
-	}
-
-	string openAndCopy(string filename){
+	void setIndexHtmlString(string filename){
   		fstream file_handler;
   		string  line;
   		string  output;
@@ -109,7 +127,44 @@ string treesValue_;
   		{
     		cout << "Could not open file: " << filename << endl;
   		}
-  		return output;
+  		indexhtmlString_ = output;
+	}
+	
+	void setDataTxtString(string filename){
+  		fstream file_handler;
+  		string  line;
+  		string  output;
+  		file_handler.open(filename);
+  		if (file_handler.is_open())
+  		{
+    		while (getline(file_handler, line))
+    		{	
+      			output += line;
+    		}
+    		file_handler.close();
+  		}
+  		else
+  		{
+    		cout << "Could not open file: " << filename << endl;
+  		}
+  		datatxtString_ = output;
+	}
+	void updateLocalDataVariabels(string datatxtString_){
+		// Format of data.txt <dataID> <data> etc.
+		// find the <dataID> and save <data> them in local variabels
+		setTemperature(datatxtString_.substr(datatxtString_.find("data1")+6, 2));	
+		setTomatoes(datatxtString_.substr(datatxtString_.find("data2")+6, 2));	
+		setTemperature(datatxtString_.substr(datatxtString_.find("data3")+6, 2));	
+		cout << temperatureValue_ <<endl;
+		cout << tomatoesValue_    << endl;
+		cout << treesValue_       << endl;
+		
+	}
+
+	void updateDataInString(string htmlstring, string data, string dataID){
+  		int    startOfDataID  = htmlstring.find(dataID);
+  		size_t lenghtOfDataID = dataID.length() + 1;
+  		indexhtmlString_ = htmlstring.replace(startOfDataID + lenghtOfDataID, data.length(), data);
 	}
 	
 	void openAndReplace(string filename, string htmlstring){
@@ -118,4 +173,11 @@ string treesValue_;
   		file_handler << htmlstring;
   		file_handler.close();
 	}
+
+	void readFromRemote(){
+		// TO BE IMPLEMENTED	
+		// do some stuff that gets the data from whereever
+		// write this data to the data.txt file
+	}			
+
 };

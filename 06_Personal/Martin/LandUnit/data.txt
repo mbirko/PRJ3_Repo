@@ -1,1 +1,1 @@
-Temperature 30 Tomatoes 42 Trees 69
+data1 12, data2 34, data3 56,
