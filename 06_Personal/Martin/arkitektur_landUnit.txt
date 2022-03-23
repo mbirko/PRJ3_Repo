@@ -1,0 +1,18 @@
+frame Land unit program
+participant "/var/www/html/index.html" as index
+participant "LandUnit.hpp" as LU
+participant "data.txt" as data
+participant "/var/www/html/log.txt" as log
+
+LU->data : updata data in file, with data read from remote
+
+LU->data : read and store content of file in local var
+
+LU->log : append string read from data.txt to log.txt
+
+LU->index : read and store content of file in local var
+
+LU->LU : add data read from data.txt to string from data.txt\ninto string read from index.html
+
+LU->index : write to file with updated data  
+
